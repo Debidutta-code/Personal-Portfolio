@@ -1,5 +1,6 @@
 // Navbar.js
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
@@ -13,12 +14,24 @@ const Navbar = () => {
         <div className="navbar">
             <div className="brand-name">My Portfolio Website</div>
             <div className={`nav-items ${menuOpen ? 'show' : ''}`}>
-                <div className="nav-item"><a href="#home">Home</a></div>
-                <div className="nav-item"><a href="#about">About</a></div>
-                <div className="nav-item"><a href="#projects">Projects</a></div>
-                <div className="nav-item"><a href="#skills">Skills</a></div>
-                <div className="nav-item"><a href="#resume">Resume</a></div>
-                <div className="nav-item"><a href="#contact">Contact</a></div>
+                <div className="nav-item">
+                    <Link to='home' spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+                </div>
+                <div className="nav-item">
+                    <Link to='about' spy={true} smooth={true} offset={50} duration={500}>About</Link>
+                </div>
+                <div className="nav-item">
+                    <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
+                </div>
+                <div className="nav-item">
+                    <Link to='skills' spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
+                </div>
+                <div className="nav-item">
+                    <Link to='resume' spy={true} smooth={true} offset={50} duration={500}>Resume</Link>
+                </div>
+                <div className="nav-item">
+                    <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+                </div>
             </div>
             <div className="menu-button" onClick={toggleMenu}>
                 <span className={`bar ${menuOpen ? 'rotate-down' : ''}`}></span>

@@ -38,9 +38,9 @@ const Homepage = () => {
     }, []); // Empty dependency array ensures this effect runs only once on mount
 
     return (
-        <div className="homepage">
+        <div id="home" className="homepage">
             <div className="user-title">
-                
+
                 <h1 className="user-name">Debidutta Acharya</h1>
                 <h3 className="user-skillset">A {dynamicText}|</h3>
             </div>
