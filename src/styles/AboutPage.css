@@ -1,18 +1,87 @@
-/* AboutPage.css */
-.about-page {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ede1e1;
-    border-radius: 10px;
-    height: 78vh;
+.about-page{
+    height: 86vh;
+    background-color: green;
 }
 
-.about-page h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+.name-heading{
+    text-align: center;
 }
 
-.about-page p {
-    font-size: 18px;
-    line-height: 1.5;
+.about-section{
+    display: flex;
+    height: 500px;
+}
+.image-container {
+    background-color: red;
+    width: 45%;
+    position: relative;
+}
+
+.image {
+    background-color: yellow;
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.about-container {
+    background-color: blue;
+    width: 55%;
+    position: relative;
+}
+
+.about {
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+}
+
+
+/* Media query for screens 768px or less */
+@media (max-width: 768px) {
+    
+    .about-section{
+        flex-direction: column;
+    }
+
+    .image-container{
+        width: 100%;
+        height: 60%;
+    }
+    
+    .image {
+        background-color: yellow;
+        width: 65%;
+        height: 65%;
+        position: relative;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about-container {
+        background-color: blue;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .about {
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        font-size: 10pt;
+        z-index: -1;
+    }
 }
