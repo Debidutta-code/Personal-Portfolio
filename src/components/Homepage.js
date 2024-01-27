@@ -44,9 +44,9 @@ const Homepage = () => {
                 <h1 className="user-name">Debidutta Acharya</h1>
                 <h3 className="user-skillset">A {dynamicText}|</h3>
             </div>
+
             <div className="user-photo">
                 <div className="circle"></div>
-                world
             </div>
         </div>
     );

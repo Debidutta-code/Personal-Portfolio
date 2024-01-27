@@ -15,22 +15,22 @@ const Navbar = () => {
             <div className="brand-name">My Portfolio Website</div>
             <div className={`nav-items ${menuOpen ? 'show' : ''}`}>
                 <div className="nav-item">
-                    <Link to='home' spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+                    <Link to='home' spy={true} smooth={true} offset={50} duration={700}>Home</Link>
                 </div>
                 <div className="nav-item">
-                    <Link to='about' spy={true} smooth={true} offset={50} duration={500}>About</Link>
+                    <Link to='about' spy={true} smooth={true} offset={50} duration={700}>About</Link>
                 </div>
                 <div className="nav-item">
-                    <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
+                    <Link to='skills' spy={true} smooth={true} offset={50} duration={700}>Skills</Link>
                 </div>
                 <div className="nav-item">
-                    <Link to='skills' spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
+                    <Link to='projects' spy={true} smooth={true} offset={50} duration={700}>Projects</Link>
                 </div>
                 <div className="nav-item">
-                    <Link to='resume' spy={true} smooth={true} offset={50} duration={500}>Resume</Link>
+                    <Link to='resume' spy={true} smooth={true} offset={50} duration={700}>Resume</Link>
                 </div>
                 <div className="nav-item">
-                    <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={50} duration={700}>Contact</Link>
                 </div>
             </div>
             <div className="menu-button" onClick={toggleMenu}>

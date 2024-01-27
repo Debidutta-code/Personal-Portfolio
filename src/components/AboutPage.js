@@ -13,9 +13,11 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <div className="about-container">
-                    
+
                     <div className="about">
-                        m Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        <p>
+                            I'm Debidutta Acharya, a results-driven professional in Bhubaneswar, Odisha, with a degree in Computer Science Engineering. Specializing in MERN stack web development and proficient in C++, I sharpen my problem-solving skills on platforms like LeetCode and GeeksforGeeks. Beyond coding, I enjoy strategic video gaming on PC and console. With a keen passion for technology and a commitment to learning, I'm ready to contribute to projects demanding attention to detail, creativity, and technical expertise.
+                        </p>
                     </div>
                 </div>
             </div>
