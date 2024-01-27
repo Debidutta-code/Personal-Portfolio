@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/SkillsPage.css';
 
 const SkillsPage = () => {
-    const languageSkills = ["C++", "React", "NodeJS", "ExpressJS", "MongoDB", "OOPS", "DBMS", "OS"];
+    const languageSkills = ["C++", "React", "NodeJS", "ExpressJS", "MongoDB", "OOPS", "DBMS", "Operating System"];
     const domainSkills = ["Web Development", "MERN Stack", "Android Development"];
 
     return (

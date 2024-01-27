@@ -41,6 +41,10 @@ h1.name-heading {
     margin-bottom: 15px;
 }
 
+.language h1{
+    color: rgba(255, 255, 0, 0.815);
+}
+
 .language{
     padding: 40px;
     padding-top: 20px;
@@ -55,7 +59,7 @@ h1.name-heading {
     margin: 0;
     display: flexbox;
     justify-content: first baseline;
-    width: 80%;
+    width: 100%;
     /* background-color: blue; */
     height: auto;
 }
@@ -68,6 +72,7 @@ h1.name-heading {
     padding: 10px;
     text-align: center;
     margin: 5px;
+    background-color: rgb(209, 209, 228);
     margin-left: 0px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -85,6 +90,10 @@ h1.name-heading {
     min-height: 35vh;
 }
 
+.domain h1{
+    color: rgba(255, 255, 0, 0.815);
+}
+
 .domain li {
     margin-bottom: 12px;
     font-size: 16px;
@@ -99,7 +108,7 @@ h1.name-heading {
     margin: 0;
     display: flexbox;
     justify-content: first baseline;
-    width: 70%;
+    width: 100%;
     /* background-color: blue; */
     height: auto;
 }
@@ -110,6 +119,7 @@ h1.name-heading {
     height: 35px;
     padding: 10px;
     text-align: center;
+    background-color: rgb(209, 209, 228);
     margin: 5px;
     margin-left: 0;
     cursor: pointer;
