@@ -35,7 +35,7 @@ const Homepage = () => {
         loopSentences();
 
         return () => setDynamicText(""); // Clean up on component unmount
-    }, []); // Empty dependency array ensures this effect runs only once on mount
+    }, [speed]); // Empty dependency array ensures this effect runs only once on mount
 
     return (
         <div id="home" className="homepage">
